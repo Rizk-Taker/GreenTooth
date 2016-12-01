@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC0D183A1DECF37F000AA7DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0D18391DECF37F000AA7DC /* AppDelegate.swift */; };
+		BC0D183C1DECF37F000AA7DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0D183B1DECF37F000AA7DC /* ViewController.swift */; };
+		BC0D18411DECF37F000AA7DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC0D18401DECF37F000AA7DC /* Assets.xcassets */; };
+		BC0D18441DECF37F000AA7DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC0D18421DECF37F000AA7DC /* LaunchScreen.storyboard */; };
+		BC0D184C1DECFA2D000AA7DC /* CentralVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0D184B1DECFA2D000AA7DC /* CentralVC.swift */; };
+		BC0D184E1DECFA3B000AA7DC /* PeripheralVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0D184D1DECFA3B000AA7DC /* PeripheralVC.swift */; };
+		BC19B9AF1DEFB0FF005A0C15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC19B9AE1DEFB0FF005A0C15 /* Main.storyboard */; };
+		BC59BB471DEE94A80078E531 /* TransferService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC59BB461DEE94A80078E531 /* TransferService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BC0D18361DECF37F000AA7DC /* GreenTooth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreenTooth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC0D18391DECF37F000AA7DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BC0D183B1DECF37F000AA7DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BC0D18401DECF37F000AA7DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC0D18431DECF37F000AA7DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC0D18451DECF37F000AA7DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC0D184B1DECFA2D000AA7DC /* CentralVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CentralVC.swift; sourceTree = "<group>"; };
+		BC0D184D1DECFA3B000AA7DC /* PeripheralVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeripheralVC.swift; sourceTree = "<group>"; };
+		BC19B9AE1DEFB0FF005A0C15 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		BC59BB461DEE94A80078E531 /* TransferService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransferService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC0D18331DECF37F000AA7DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC0D182D1DECF37F000AA7DC = {
+			isa = PBXGroup;
+			children = (
+				BC0D18381DECF37F000AA7DC /* GreenTooth */,
+				BC0D18371DECF37F000AA7DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC0D18371DECF37F000AA7DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC0D18361DECF37F000AA7DC /* GreenTooth.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC0D18381DECF37F000AA7DC /* GreenTooth */ = {
+			isa = PBXGroup;
+			children = (
+				BC0D18391DECF37F000AA7DC /* AppDelegate.swift */,
+				BC0D183B1DECF37F000AA7DC /* ViewController.swift */,
+				BC59BB461DEE94A80078E531 /* TransferService.swift */,
+				BC0D184B1DECFA2D000AA7DC /* CentralVC.swift */,
+				BC0D184D1DECFA3B000AA7DC /* PeripheralVC.swift */,
+				BC19B9AE1DEFB0FF005A0C15 /* Main.storyboard */,
+				BC0D18401DECF37F000AA7DC /* Assets.xcassets */,
+				BC0D18421DECF37F000AA7DC /* LaunchScreen.storyboard */,
+				BC0D18451DECF37F000AA7DC /* Info.plist */,
+			);
+			path = GreenTooth;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC0D18351DECF37F000AA7DC /* GreenTooth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC0D18481DECF37F000AA7DC /* Build configuration list for PBXNativeTarget "GreenTooth" */;
+			buildPhases = (
+				BC0D18321DECF37F000AA7DC /* Sources */,
+				BC0D18331DECF37F000AA7DC /* Frameworks */,
+				BC0D18341DECF37F000AA7DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GreenTooth;
+			productName = GreenTooth;
+			productReference = BC0D18361DECF37F000AA7DC /* GreenTooth.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC0D182E1DECF37F000AA7DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Nicolas Rizk";
+				TargetAttributes = {
+					BC0D18351DECF37F000AA7DC = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = D5743VKL6D;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BC0D18311DECF37F000AA7DC /* Build configuration list for PBXProject "GreenTooth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC0D182D1DECF37F000AA7DC;
+			productRefGroup = BC0D18371DECF37F000AA7DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC0D18351DECF37F000AA7DC /* GreenTooth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC0D18341DECF37F000AA7DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC19B9AF1DEFB0FF005A0C15 /* Main.storyboard in Resources */,
+				BC0D18441DECF37F000AA7DC /* LaunchScreen.storyboard in Resources */,
+				BC0D18411DECF37F000AA7DC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC0D18321DECF37F000AA7DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC59BB471DEE94A80078E531 /* TransferService.swift in Sources */,
+				BC0D183C1DECF37F000AA7DC /* ViewController.swift in Sources */,
+				BC0D184C1DECFA2D000AA7DC /* CentralVC.swift in Sources */,
+				BC0D184E1DECFA3B000AA7DC /* PeripheralVC.swift in Sources */,
+				BC0D183A1DECF37F000AA7DC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BC0D18421DECF37F000AA7DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC0D18431DECF37F000AA7DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC0D18461DECF37F000AA7DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC0D18471DECF37F000AA7DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC0D18491DECF37F000AA7DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D5743VKL6D;
+				INFOPLIST_FILE = GreenTooth/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicolasrizk.GreenTooth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BC0D184A1DECF37F000AA7DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D5743VKL6D;
+				INFOPLIST_FILE = GreenTooth/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicolasrizk.GreenTooth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC0D18311DECF37F000AA7DC /* Build configuration list for PBXProject "GreenTooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC0D18461DECF37F000AA7DC /* Debug */,
+				BC0D18471DECF37F000AA7DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC0D18481DECF37F000AA7DC /* Build configuration list for PBXNativeTarget "GreenTooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC0D18491DECF37F000AA7DC /* Debug */,
+				BC0D184A1DECF37F000AA7DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC0D182E1DECF37F000AA7DC /* Project object */;
+}
